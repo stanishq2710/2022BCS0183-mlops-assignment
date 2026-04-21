@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/tanishq.singh/Downloads/sem 8 college/mlops/2022BCS0183-mlops-assignment/mlruns/111197735419582368/fe5ebd3d983e422199037e170ad19b03/artifacts
+end_time: 1776800155009
+entry_point_name: ''
+experiment_id: '111197735419582368'
+lifecycle_stage: active
+run_id: fe5ebd3d983e422199037e170ad19b03
+run_name: merciful-moose-930
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776800152959
+status: 3
+tags: []
+user_id: tanishq.singh

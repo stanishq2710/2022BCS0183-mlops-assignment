@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/tanishq.singh/Downloads/sem 8 college/mlops/2022BCS0183-mlops-assignment/mlruns/111197735419582368/3e3e34047c4649c899a2a5935f08dfe9/artifacts
+end_time: 1776800536312
+entry_point_name: ''
+experiment_id: '111197735419582368'
+lifecycle_stage: active
+run_id: 3e3e34047c4649c899a2a5935f08dfe9
+run_name: carefree-lamb-361
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776800534366
+status: 3
+tags: []
+user_id: tanishq.singh

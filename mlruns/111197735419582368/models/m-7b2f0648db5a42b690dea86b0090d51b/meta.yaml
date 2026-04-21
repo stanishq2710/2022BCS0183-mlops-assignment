@@ -1,0 +1,10 @@
+artifact_location: file:///Users/tanishq.singh/Downloads/sem 8 college/mlops/2022BCS0183-mlops-assignment/mlruns/111197735419582368/models/m-7b2f0648db5a42b690dea86b0090d51b/artifacts
+creation_timestamp: 1776800536415
+experiment_id: '111197735419582368'
+last_updated_timestamp: 1776800538139
+model_id: m-7b2f0648db5a42b690dea86b0090d51b
+model_type: null
+name: model
+source_run_id: a1626cfdf9e04f92865a681620f28270
+status: 2
+status_message: null

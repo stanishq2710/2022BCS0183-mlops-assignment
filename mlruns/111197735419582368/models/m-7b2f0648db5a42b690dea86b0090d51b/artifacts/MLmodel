@@ -1,0 +1,23 @@
+artifact_path: file:///Users/tanishq.singh/Downloads/sem 8 college/mlops/2022BCS0183-mlops-assignment/mlruns/111197735419582368/models/m-7b2f0648db5a42b690dea86b0090d51b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-7b2f0648db5a42b690dea86b0090d51b
+model_size_bytes: 352356
+model_uuid: m-7b2f0648db5a42b690dea86b0090d51b
+prompts: null
+run_id: a1626cfdf9e04f92865a681620f28270
+utc_time_created: '2026-04-21 19:42:16.427541'

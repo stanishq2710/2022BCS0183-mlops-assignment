@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/tanishq.singh/Downloads/sem 8 college/mlops/2022BCS0183-mlops-assignment/mlruns/111197735419582368/36db42939cd44de39679fd805aef19c1/artifacts
+end_time: 1776800160472
+entry_point_name: ''
+experiment_id: '111197735419582368'
+lifecycle_stage: active
+run_id: 36db42939cd44de39679fd805aef19c1
+run_name: calm-cod-416
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776800158781
+status: 3
+tags: []
+user_id: tanishq.singh
