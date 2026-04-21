@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/stanishq2710/2022BCS0183-mlops-assignment.git'
+                git branch: 'main', url: 'https://github.com/stanishq2710/2022BCS0183-mlops-assignment.git'
             }
         }
 
