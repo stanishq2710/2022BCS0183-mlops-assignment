@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    
     stages {
 
         stage('Checkout Code') {
@@ -9,11 +9,22 @@ pipeline {
             }
         }
 
+        stage('Setup Python Environment') {
+            steps {
+                sh '''
+                python3 -m venv venv
+                . venv/bin/activate
+                pip install --upgrade pip
+                '''
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 sh '''
-                pip3 install -r requirements.txt
-                pip3 install "dvc[s3]"
+                . venv/bin/activate
+                pip install -r requirements.txt
+                pip install "dvc[s3]"
                 '''
             }
         }
@@ -21,6 +32,7 @@ pipeline {
         stage('DVC Pull') {
             steps {
                 sh '''
+                . venv/bin/activate
                 dvc pull
                 '''
             }
@@ -29,15 +41,16 @@ pipeline {
         stage('Train Model') {
             steps {
                 sh '''
-                python3 src/train.py
+                . venv/bin/activate
+                python src/train.py
                 '''
             }
         }
 
-        stage('List Files (Debug)') {
+        stage('Debug Files') {
             steps {
                 sh '''
-                ls
+                ls -la
                 '''
             }
         }
